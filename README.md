@@ -1,1 +1,1 @@
-# Nuxt3-JSONPlaceholder
+# Nuxt3-Shablon
