@@ -1,11 +1,11 @@
-<script setup lang="ts">
-const route = useRoute()
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div>
-    <h1>Nuxt Routing set up successfully!</h1>
-    <p>Current route: {{ route.path }}</p>
-    <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
+  <div class="flex justify-center items-center h-screen">
+    <nuxt-link
+      :to="{ name: 'posts', query: { page: 1 } }"
+      class="text-5xl font-extrabold text-zinc-400"
+      >Перейти к постам</nuxt-link
+    >
   </div>
 </template>
